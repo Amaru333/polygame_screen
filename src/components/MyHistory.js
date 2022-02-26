@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   historyTitle: {
     color: '#C6FF00',
     fontSize: 24,
-    fontWeight: '450',
+    fontWeight: '500',
     marginLeft: 10,
   },
 });

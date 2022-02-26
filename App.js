@@ -29,6 +29,7 @@ import BottomNavigationTab from './src/components/BottomNavigationTab';
 import BuyNowModal from './src/components/BuyNowModal';
 import ConnectWalletModal from './src/components/ConnectWalletModal';
 import CreateYourNFT from './src/components/CreateYourNFT';
+import ExchangePage from './src/components/ExchangePage';
 import FeaturedNFT from './src/components/FeaturedNFT';
 import MyHistory from './src/components/MyHistory';
 import NFTPage from './src/components/NFTPage';
@@ -77,7 +78,8 @@ const App = () => {
         style={styles.scrollView}>
         <Text>Hello</Text>
       </ScrollView>
-      <CreateYourNFT />
+      <ExchangePage />
+      {/* <CreateYourNFT /> */}
       {/* <Statistics /> */}
       {/* <MyHistory /> */}
       {/* <SwapModal /> */}
